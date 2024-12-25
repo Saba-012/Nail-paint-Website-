@@ -3,72 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmo Nail Paints</title>
+    <title>The Nail Nest</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <div class="logo">Cosmo Nail Paints</div>
+        <div class="logo">
+            <h1>The Nail Nest</h1>
+            <p>"Artistic expressions, one nail at a time"
+Nail Nurture Experience nail care that combines artistry and expertise.</p>
+        </div>
         <nav>
             <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
+                <li><a href="#products">Colors</a></li>
+                <li><a href="#tools">Tools</a></li>
+                <li><a href="#nailart">Nail Art</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
-    
-    <section id="home">
-        <div class="hero">
-            <h1>Welcome to Cosmo Nail Paints</h1>
-            <p>Explore our vibrant and long-lasting nail colors.</p>
-            <button onclick="scrollToProducts()">Shop Now</button>
-        </div>
-    </section>
-    
-    <section id="products">
-        <h2>Our Products</h2>
-        <div class="product-container">
-            <div class="product-card">
-                <img src="red-nail-polish.jpg" alt="Red Nail Polish">
-                <h3>Ruby Red</h3>
-                <p>Price: $10</p>
+
+    <main>
+        <section id="products">
+            <h2>Our Nail Paint Colors</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="red.jpg" alt="Red Nail Paint">
+                    <h3>Classic Red</h3>
+                    <p>Price: PKR 500</p>
+                </div>
+                <div class="product">
+                    <img src="pink.jpg" alt="Pink Nail Paint">
+                    <h3>Blush Pink</h3>
+                    <p>Price: PKR 450</p>
+                </div>
+                <div class="product">
+                    <img src="blue.jpg" alt="Blue Nail Paint">
+                    <h3>Ocean Blue</h3>
+                    <p>Price: PKR 550</p>
+                </div>
             </div>
-            <div class="product-card">
-                <img src="blue-nail-polish.jpg" alt="Blue Nail Polish">
-                <h3>Ocean Blue</h3>
-                <p>Price: $10</p>
-            </div>
-            <div class="product-card">
-                <img src="pink-nail-polish.jpg" alt="Pink Nail Polish">
-                <h3>Blush Pink</h3>
-                <p>Price: $10</p>
-            </div>
-        </div>
-        <div class="color-picker">
-            <h3>Try Your Favorite Color!</h3>
-            <input type="color" id="colorPicker" oninput="updateBackgroundColor()" />
-            <p id="colorValue">Selected Color: #ffffff</p>
-        </div>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <label for="name">Name:</label>
-            <input type="text" id="name" required>
-            <label for="email">Email:</label>
-            <input type="email" id="email" required>
-            <label for="message">Message:</label>
-            <textarea id="message" required></textarea>
-            <button type="submit">Submit</button>
-        </form>
-    </section>
+        </section>
+
+        <section id="tools">
+            <h2>Nail Tools</h2>
+            <ul>
+                <li>nail tools bag - PKR 1000</li>
+                <li>Nail Clippers - PKR 300</li>
+                <li>Nail Files - PKR 200</li>
+                <li>Cuticle Pushers - PKR 250</li>
+            </ul>
+        </section>
+
+        <section id="nailart">
+            <h2>Nail Art Designs</h2>
+            <p>Explore our creative nail art ideas! Visit our store or contact us for more details.</p>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Email: thenailnest@gmail.com</p>
+            <p>Phone: 041-67994320</p>
+            <p>Address: sector E-11, Islamabad</p>
+        </section>
+    </main>
 
     <footer>
-        <p>© 2024 Cosmo Nail Paints. All rights reserved.</p>
+        <p>&copy; 2024 The Nail Nest. All rights reserved.</p>
     </footer>
-    
+
     <script src="script.js"></script>
 </body>
 </html>
